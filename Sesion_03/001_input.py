@@ -8,6 +8,6 @@ print(f"Su usuario es: {usuario}")
 
 print(f"Bienvenido/a {nombre}")
 
-actualizar = edad + 12
+actualizar = edad + 15
 
-print(f"Su edad actualizada es: {actualizar}")
+print(f"Su edad actualizada es: {actualizar}")  

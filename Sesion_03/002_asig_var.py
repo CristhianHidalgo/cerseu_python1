@@ -11,4 +11,4 @@ edad = var_3"""
 
 usuario, nombre, edad = var_1, var_2, var_3
 
-print(f"\nSu nombre de usuario es: {usuario} y tiene {edad} años")
+print(f"\nSu nombre de usuario es {usuario} y tiene {edad} años")

@@ -12,6 +12,6 @@ Requisitos:
 
 sueldo = int(input("Ingrese su sueldo del empleado: "))
 
-bonificacion = "Su sueldo no tiene bonificacion" if sueldo > 3000 else "Su sueldo tiene bonificación este año"
+bonificacion = "Su sueldo no tiene bonificacion" if sueldo >= 3000 else "Su sueldo tiene bonificación este año"
 
 print(bonificacion)

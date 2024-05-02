@@ -16,6 +16,6 @@ def operaciones(a, b):
     else:
         print(resultado)
 
-#operaciones(40, "Python")
-#operaciones(100, 500)
+operaciones(40, "Python")
+operaciones(100, 500)
 operaciones(500, 0)

@@ -18,5 +18,9 @@ vaca = Vaca()
 
 lista_animales = [perro, gato, vaca]
 
-#def canto(animales):
-  #  for animal in lista_animales:
+def canto(lista):
+    for animal in lista:
+        animal.sonido()
+
+canto(lista_animales)
+

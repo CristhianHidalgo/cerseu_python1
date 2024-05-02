@@ -23,7 +23,17 @@ print(f"El cubo del número mayor es: {cubo}")
 def mayor_1(a, b, c, d):
     if a>b & a>c & a>d:
         return a
-    if b>a & b>c & b>d:
+    elif b>a & b>c & b>d:
         return b
+    elif c>a & c>d & c>b:
+        return c
+    else:
+        return d
+
+print(f"El número mayor es: {mayor(a, b, c, d)}")
+
+cubo = mayor(a, b, c, d) ** 3
+print(f"El cubo del número mayor es: {cubo}")
+
 
 

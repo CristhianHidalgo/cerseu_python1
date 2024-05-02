@@ -53,5 +53,8 @@ carro_volador.acelerar()
 
 print(f"La velcoidad inicial del carro volador es: {carro_volador.velocidad}")
 
-"""Esto no..."""
-#print("El estado de vuelvo de mi primer carro es: {carro_1.vuela()}")
+"""Esto no puede suceder, porque la herencia es solo sobre la clase HIJA"""
+#print(f"El estado de vuelvo de mi primer carro es: {carro1.vuela()}")
+
+"""Esto tampoco puede suceder porque es función, más no atributo, sería con carro_volador.estadoVolando"""
+#print(f"El estado de vuelvo de mi primer carro es: {carro_volador.vuela()}")

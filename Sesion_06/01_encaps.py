@@ -23,7 +23,7 @@ class B:
         self.__contador += 1
 
     def cuenta(self):
-        return self.contador
+        return self.__contador
 
 var_1 = A()
 var_1._contador
@@ -35,6 +35,7 @@ var_1.incrementa()
 var_1.incrementa()
 
 print(f"Valor inicial de A: {var_1.inicial}")
+print(f"Contador A: {var_1.cuenta()}")
 print(f"Contador A: {var_1._contador}")
 
 var_2 = B()
@@ -45,4 +46,8 @@ var_2.incrementa()
 var_2.incrementa()
 var_2.incrementa()
 
-print(f"Valor del contador de B: {var_2.inicial}")
+#Esto si, porque es módulo
+print(f"Contador de B: {var_2.cuenta()}")
+
+#Esto no, porque es atributo
+print(f"Contador de B: {var_2.__contador}")

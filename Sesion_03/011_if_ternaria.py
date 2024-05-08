@@ -13,5 +13,3 @@ else:
 
 final = "1. Su estado final es terminado" if estado == 1 else "2. Su estado final es no terminado"
 print (final)
-
-

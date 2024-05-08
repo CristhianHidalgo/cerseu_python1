@@ -2,13 +2,13 @@
 
 """Estructura y uso"""
 """
-try: 
+try:
     bloque de código 1
 except 'excepcion 1':
     bloque de código 2
 except 'excepcion 2':
     bloque de cógigo 3
-else: 
+else:
     bloque de código 4
 """
 def division(a, b):

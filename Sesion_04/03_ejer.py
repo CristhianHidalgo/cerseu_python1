@@ -1,13 +1,16 @@
 """Usando las propiedades de cadenas o string"""
 
 """
-Requisitos: 
+Requisitos:
 
-- Ingresar tu nombre y apellido por consola (cada valor tiene que estar en una varibales distinta)
+- Ingresar tu nombre y apellido por consola
+(cada valor tiene que estar en una varibales distinta)
 - Concatenar ambos valores en una sola variable
 - Obtener y mostrar el tamaño el nombre completo
 - Imprimir el resultado final todo en mayúscula
-- Indicar mediante condicionales si el tamaño del nombre es mayor o no al del apellido (ingresar solo para este caso el apellido paterno)
+- Indicar mediante condicionales si el tamaño del nombre
+es mayor o no al del apellido (ingresar solo para
+este caso el apellido paterno)
 """
 
 nombre = input("Ingresa tu nombre: ")
